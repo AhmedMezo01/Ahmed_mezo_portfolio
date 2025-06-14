@@ -7,11 +7,23 @@
   <title>Ahmed Mezo-Photogrphy</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Tahoma', sans-serif;
-      background: url('WhatsApp Image 2025-06-12 at 23.48.21_9e2fc9f5.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
+  margin: 0;
+  font-family: 'Tahoma', sans-serif;
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('WhatsApp Image 2025-06-12 at 23.48.21_9e2fc9f5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* عشان الموبايل يقرأها صح */
+    background-position: top;
+  }
+}
+
     }
     header {
       background-color: rgba(0, 0, 0, 0.7);
@@ -111,7 +123,6 @@
       <img src="as.jpg" alt="new priject5">
     </div>
   </section>
-
   <section class="contact">
     <h2>CONTACT ME</h2>
     <p>📞 01019142688</p>
