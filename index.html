@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ahmed Mezo-Photogrphy</title>
   <style>
-    body {
+body {
   margin: 0;
   font-family: 'Tahoma', sans-serif;
-background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('WhatsApp Image 2025-06-12 at 23.48.21_9e2fc9f5.jpg');
-  background-size: cover;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('WhatsApp Image 2025-06-12 at 23.48.21_9e2fc9f5.jpg');
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,7 +20,8 @@ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('WhatsA
 
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll; /* عشان الموبايل يقرأها صح */
+    background-size: cover;
+    background-attachment: scroll;
     background-position: top;
   }
 }
